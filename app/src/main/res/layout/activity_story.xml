@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.StoryActivity">
+
+
+        <ImageView
+            android:id="@+id/btnSort"
+            android:layout_width="46dp"
+            android:layout_height="47dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="19dp"
+            android:layout_marginRight="12dp"
+            app:srcCompat="@drawable/baseline_sort_24" />
+
+        <TextView
+            android:id="@+id/tvmStory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="8dp"
+            android:text="Tất cả Truyện"
+            android:textSize="24sp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvmStory"
+            android:layout_width="401dp"
+            android:layout_height="658dp"
+            android:layout_below="@id/tvmStory"
+            android:layout_marginStart="10dp"
+
+            android:layout_marginTop="41dp"
+            tools:listitem="@layout/cardview">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+
+</RelativeLayout>

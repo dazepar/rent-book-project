@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">PrimaryProject</string>
+
+    //Add lớp String fb
+    <string name="facebook_app_id">6097856430334775</string>
+    <string name="fb_login_protocol_scheme">fb1234</string>
+    <string name="facebook_client_token">83ab4c05c6d5cd327ab5ccf7d36e3f2a</string>
+    //tạo menu
+
+    <string-array name="news">
+        <item> tin nổi bật </item>
+        <item> tin mới </item>
+        <item> tin cũ </item>
+    </string-array>
+
+    <string-array name="comic">
+        <item> truyện đang đọc </item>
+        <item> truyện đã đọc </item>
+        <item> gợi ý </item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="thank_you_message">Cảm ơn bạn đã sử dụng dịch vụ của chúng tôi!</string>
+
+
+</resources>
